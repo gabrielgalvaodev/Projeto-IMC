@@ -1,0 +1,21 @@
+body{
+    background-color:darkgray;
+}
+
+h1{
+    font-family:cursive;
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+label{
+    font-family: cursive;
+}
+
+td{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}

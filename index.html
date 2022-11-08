@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice de Massa Corporal</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12" align="center">
+                <h1 class="mt-4 mb-4" >Indice de Massa Corporal</h1>
+                
+                    <label class="form-label"><b>Altura(m): </b></label>
+                    <input id="altura" type="number">
+                    <label class="form-label"><b>Massa(Kg): </b></label>
+                    <input id="massa" type="number">
+                
+                <button onclick="cadastrar()">Regitrar</button>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <hr>
+                <h3>Histórico de Registro</h3>
+                <div>
+                    <table class="table" id="tabela">
+                        <tr>
+                            <td class="table-primary" >Altura(m)</td>
+                            <td class="table-secondary">Massa(Kg)</td>
+                            <td class="table-success">IMC</td>
+                        </tr>
+                    </table>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
